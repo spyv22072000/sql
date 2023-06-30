@@ -7,7 +7,6 @@ const connection = mysql.createConnection({
   database: 'mytestdb',
   password:'mypass',
 });
-git remote set-url origin https://github.com/spyv22072000/sql.git
 // simple query
 connection.query(
   ` select * from persons`,
